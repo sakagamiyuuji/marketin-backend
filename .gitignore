@@ -1,0 +1,6 @@
+node_modules/
+.env
+
+# Cursor IDE (local config, rules, MCP, etc.)
+.cursor/
+.cursorrules
