@@ -2,6 +2,13 @@ require('dotenv').config();
 const mongoose = require('mongoose');
 const { nanoid } = require('nanoid');
 const Product = require('./models/Product');
+const User = require('./models/User');
+
+const DEFAULT_USER = {
+  name: 'Test User',
+  email: 'test@example.com',
+  password: '12345678',
+};
 
 const products = [
   {
@@ -162,6 +169,18 @@ async function seed() {
       products.map((p) => ({ ...p, shortId: nanoid(10) }))
     );
     console.log(`Berhasil menanam ${products.length} produk`);
+
+    const existingUser = await User.findOne({ email: DEFAULT_USER.email });
+    if (existingUser) {
+      console.log(
+        `User default sudah ada (${DEFAULT_USER.email})`
+      );
+    } else {
+      await User.create(DEFAULT_USER);
+      console.log(
+        `User default dibuat: ${DEFAULT_USER.email} / ${DEFAULT_USER.password}`
+      );
+    }
 
     await mongoose.connection.close();
     console.log('Koneksi ditutup');

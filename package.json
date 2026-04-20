@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js",
+    "dev": "node seed.js && nodemon index.js",
     "start": "node index.js",
     "test:db": "node scripts/pingMongo.js"
   },
@@ -22,7 +22,7 @@
     "nanoid": "^3.3.11"
   },
   "devDependencies": {
-    "mongodb": "^6.20.0",
+    "mongodb": "^6.21.0",
     "nodemon": "^3.1.14"
   }
 }
