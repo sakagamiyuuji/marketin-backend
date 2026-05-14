@@ -1,0 +1,74 @@
+{
+  "400_validation": {
+    "status": 400,
+    "body": {
+      "message": "Nama produk wajib diisi"
+    }
+  },
+  "400_invalid_shortId": {
+    "status": 400,
+    "body": {
+      "message": "shortId tidak valid"
+    }
+  },
+  "400_stock_insufficient": {
+    "status": 400,
+    "body": {
+      "message": "Stok tidak mencukupi"
+    }
+  },
+  "400_duplicate_email": {
+    "status": 400,
+    "body": {
+      "message": "Email sudah digunakan"
+    }
+  },
+  "401_missing_token": {
+    "status": 401,
+    "body": {
+      "message": "Token tidak ditemukan"
+    }
+  },
+  "401_invalid_token": {
+    "status": 401,
+    "body": {
+      "message": "Token tidak valid atau sudah kadaluarsa"
+    }
+  },
+  "401_wrong_credentials": {
+    "status": 401,
+    "body": {
+      "message": "Email atau password salah"
+    }
+  },
+  "404_product": {
+    "status": 404,
+    "body": {
+      "message": "Produk tidak ditemukan"
+    }
+  },
+  "404_user": {
+    "status": 404,
+    "body": {
+      "message": "User tidak ditemukan"
+    }
+  },
+  "404_cart_item": {
+    "status": 404,
+    "body": {
+      "message": "Item tidak ditemukan di cart"
+    }
+  },
+  "404_endpoint": {
+    "status": 404,
+    "body": {
+      "message": "Endpoint tidak ditemukan"
+    }
+  },
+  "500_server_error": {
+    "status": 500,
+    "body": {
+      "message": "Terjadi kesalahan pada server"
+    }
+  }
+}

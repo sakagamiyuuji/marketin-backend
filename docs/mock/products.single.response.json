@@ -1,0 +1,12 @@
+{
+  "_id": "6648a1f2e4b0c3d5f9a10001",
+  "shortId": "abc1234567",
+  "name": "Laptop Gaming Pro",
+  "description": "Laptop dengan spesifikasi tinggi untuk gaming dan desain grafis",
+  "price": 15000000,
+  "category": "elektronik",
+  "image": "https://example.com/images/laptop-gaming.jpg",
+  "stock": 10,
+  "rating": 4.5,
+  "createdAt": "2026-05-01T08:00:00.000Z"
+}

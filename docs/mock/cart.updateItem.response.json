@@ -1,0 +1,35 @@
+{
+  "items": [
+    {
+      "lineId": "6648c3d5f9a1000100000001",
+      "quantity": 3,
+      "lineSubtotal": 45000000,
+      "product": {
+        "_id": "6648a1f2e4b0c3d5f9a10001",
+        "shortId": "abc1234567",
+        "name": "Laptop Gaming Pro",
+        "price": 15000000,
+        "image": "https://example.com/images/laptop-gaming.jpg",
+        "stock": 10,
+        "category": "elektronik"
+      }
+    },
+    {
+      "lineId": "6648c3d5f9a1000100000002",
+      "quantity": 1,
+      "lineSubtotal": 750000,
+      "product": {
+        "_id": "6648a1f2e4b0c3d5f9a10002",
+        "shortId": "def9876543",
+        "name": "Headphone Wireless",
+        "price": 750000,
+        "image": "https://example.com/images/headphone.jpg",
+        "stock": 25,
+        "category": "elektronik"
+      }
+    }
+  ],
+  "subtotal": 45750000,
+  "itemCount": 4,
+  "updatedAt": "2026-05-14T13:08:00.000Z"
+}

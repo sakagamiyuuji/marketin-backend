@@ -1,0 +1,98 @@
+[
+  {
+    "_id": "6648a1f2e4b0c3d5f9a10001",
+    "shortId": "abc1234567",
+    "name": "Laptop Gaming Pro",
+    "description": "Laptop dengan spesifikasi tinggi untuk gaming dan desain grafis",
+    "price": 15000000,
+    "category": "elektronik",
+    "image": "https://example.com/images/laptop-gaming.jpg",
+    "stock": 10,
+    "rating": 4.5,
+    "createdAt": "2026-05-01T08:00:00.000Z"
+  },
+  {
+    "_id": "6648a1f2e4b0c3d5f9a10002",
+    "shortId": "def9876543",
+    "name": "Headphone Wireless",
+    "description": "Headphone bluetooth dengan active noise cancelling 30 jam battery life",
+    "price": 750000,
+    "category": "elektronik",
+    "image": "https://example.com/images/headphone.jpg",
+    "stock": 25,
+    "rating": 4.2,
+    "createdAt": "2026-05-02T08:00:00.000Z"
+  },
+  {
+    "_id": "6648a1f2e4b0c3d5f9a10003",
+    "shortId": "ghi5432109",
+    "name": "Kemeja Batik Premium",
+    "description": "Kemeja batik motif parang dengan bahan katun premium adem dan nyaman",
+    "price": 250000,
+    "category": "fashion",
+    "image": "https://example.com/images/kemeja-batik.jpg",
+    "stock": 50,
+    "rating": 4.7,
+    "createdAt": "2026-05-03T08:00:00.000Z"
+  },
+  {
+    "_id": "6648a1f2e4b0c3d5f9a10004",
+    "shortId": "jkl1122334",
+    "name": "Sepatu Sneakers Kasual",
+    "description": "Sneakers kasual unisex bahan canvas ringan dan breathable",
+    "price": 350000,
+    "category": "fashion",
+    "image": "https://example.com/images/sneakers.jpg",
+    "stock": 30,
+    "rating": 4.3,
+    "createdAt": "2026-05-04T08:00:00.000Z"
+  },
+  {
+    "_id": "6648a1f2e4b0c3d5f9a10005",
+    "shortId": "mno5566778",
+    "name": "Rendang Sapi Kemasan 500g",
+    "description": "Rendang sapi asli Padang dengan rempah pilihan tahan 6 bulan",
+    "price": 85000,
+    "category": "makanan",
+    "image": "https://example.com/images/rendang.jpg",
+    "stock": 100,
+    "rating": 4.9,
+    "createdAt": "2026-05-05T08:00:00.000Z"
+  },
+  {
+    "_id": "6648a1f2e4b0c3d5f9a10006",
+    "shortId": "pqr9900112",
+    "name": "Smartwatch Fitness Tracker",
+    "description": "Smartwatch dengan monitor detak jantung GPS dan tahan air",
+    "price": 1200000,
+    "category": "elektronik",
+    "image": "https://example.com/images/smartwatch.jpg",
+    "stock": 15,
+    "rating": 4.1,
+    "createdAt": "2026-05-06T08:00:00.000Z"
+  },
+  {
+    "_id": "6648a1f2e4b0c3d5f9a10007",
+    "shortId": "stu3344556",
+    "name": "Tas Ransel Laptop 15 inch",
+    "description": "Tas ransel anti air dengan kompartemen laptop khusus dan USB charging port",
+    "price": 420000,
+    "category": "fashion",
+    "image": "https://example.com/images/ransel.jpg",
+    "stock": 40,
+    "rating": 4.4,
+    "createdAt": "2026-05-07T08:00:00.000Z"
+  },
+  {
+    "_id": "6648a1f2e4b0c3d5f9a10008",
+    "shortId": "vwx7788990",
+    "name": "Kopi Arabika Aceh 200g",
+    "description": "Biji kopi arabika premium dari dataran tinggi Aceh single origin roast medium",
+    "price": 75000,
+    "category": "makanan",
+    "image": "https://example.com/images/kopi-arabika.jpg",
+    "stock": 80,
+    "rating": 4.8,
+    "createdAt": "2026-05-08T08:00:00.000Z"
+  }
+]

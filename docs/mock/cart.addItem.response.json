@@ -1,0 +1,21 @@
+{
+  "items": [
+    {
+      "lineId": "6648c3d5f9a1000100000001",
+      "quantity": 2,
+      "lineSubtotal": 30000000,
+      "product": {
+        "_id": "6648a1f2e4b0c3d5f9a10001",
+        "shortId": "abc1234567",
+        "name": "Laptop Gaming Pro",
+        "price": 15000000,
+        "image": "https://example.com/images/laptop-gaming.jpg",
+        "stock": 10,
+        "category": "elektronik"
+      }
+    }
+  ],
+  "subtotal": 30000000,
+  "itemCount": 2,
+  "updatedAt": "2026-05-14T13:05:00.000Z"
+}
