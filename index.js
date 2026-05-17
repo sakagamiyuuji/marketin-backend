@@ -1,6 +1,7 @@
 require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
+const mongoose = require('mongoose');
 const connectDB = require('./config/db');
 const productRoutes = require('./routes/productRoutes');
 const authRoutes = require('./routes/authRoutes');
@@ -33,6 +34,12 @@ app.use(
 );
 
 app.use(express.json());
+
+app.get('/api/health', (req, res) => {
+  const state = mongoose.connection.readyState; // 0=disconnected, 1=connected, 2=connecting, 3=disconnecting
+  const status = ['disconnected', 'connected', 'connecting', 'disconnecting'][state];
+  res.json({ server: 'running', database: status });
+});
 
 app.use('/api/auth', authRoutes);
 app.use('/api/cart', cartRoutes);
