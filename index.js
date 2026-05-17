@@ -18,7 +18,11 @@ connectDB();
 
 const app = express();
 
-const corsOrigins = ['http://localhost:5173', 'http://localhost:3000'];
+const corsOrigins = [
+  'http://localhost:5173',
+  'http://localhost:3000',
+  process.env.FRONTEND_URL,
+].filter(Boolean);
 
 app.use(
   cors({
